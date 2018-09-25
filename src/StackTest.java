@@ -11,7 +11,7 @@ class StackTest {
     class capacity {
         @DisplayName("スタックの容量はデフォルト10であること")
         @Test
-        public void return0WhenDefaultNew() throws Exception {
+        public void return10WhenDefaultNew() throws Exception {
             Stack stack = new Stack();
             assertEquals(10, stack.capacity());
         }
